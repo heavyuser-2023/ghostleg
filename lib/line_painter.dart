@@ -6,7 +6,7 @@ class LinePainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     var TotalPlayerNum = 5;
-    var legCount = 10;
+    var legCount = 15;
 
     final linePaint = Paint()
       ..color = Color.fromARGB(255, 238, 239, 233) // 선의 색
